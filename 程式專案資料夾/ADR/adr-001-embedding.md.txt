@@ -1,0 +1,18 @@
+# ADR-001: Embedding Model Selection
+
+## Context
+醫療文本包含大量專有名詞，需要高語意理解能力。
+
+## Decision
+選擇 BGE-M3 作為 embedding model。
+
+## Status
+Accepted
+
+## Consequences
+優點：
+- 多語言支援
+- 語意理解強
+
+缺點：
+- 計算成本較高
