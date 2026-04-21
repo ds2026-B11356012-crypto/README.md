@@ -1,0 +1,18 @@
+# ADR-003: GraphRAG Adoption
+
+## Context
+醫療知識存在一定關聯性，但資料結構不完全依賴圖。
+
+## Decision
+不採用 GraphRAG，使用 Vector RAG。
+
+## Status
+Accepted
+
+## Consequences
+優點：
+- 架構簡單
+- 易於實作
+
+缺點：
+- 無法建模複雜知識關係
