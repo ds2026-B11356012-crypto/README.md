@@ -1,0 +1,18 @@
+# ADR-002: Retrieval Strategy
+
+## Context
+醫療查詢同時包含關鍵字與語意需求。
+
+## Decision
+採用 Hybrid Search（BM25 + Vector）。
+
+## Status
+Accepted
+
+## Consequences
+優點：
+- 提高專有名詞命中率
+- 提升 recall
+
+缺點：
+- 系統複雜度增加
